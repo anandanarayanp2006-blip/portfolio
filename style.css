@@ -1,10 +1,10 @@
 body{
 font-family:Arial;
 margin:0;
-background:lightgray;
+background:blue;
 }
 header{
-background:black;
+background:yellow;
 color:white;
 padding:15px;
 text-align:center;
@@ -50,7 +50,7 @@ background:black;
 padding:8px 15px;
 }
 footer{
-background:black;
+background:white;
 color:white;
 text-align:center;
 padding:10px;
