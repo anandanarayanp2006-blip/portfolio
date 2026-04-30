@@ -1,74 +1,74 @@
 body{
-font-family:Dancing Script;
-margin:0;
-background:yellow;
+    font-family:Dancing Script;
+    margin:0;
+    background:yellow;
 }
 header{
-background:blue;
-color:yellow;
-padding:15px;
-text-align:center;
+    background:blue;
+    color:yellow;
+    padding:15px;
+    text-align:center;
 }
 nav ul{
-list-style:none;
-padding:0;
+    list-style:none;
+    padding:0;
 }
 nav ul li{
-display:inline;
-margin:15px;
+    display:inline;
+    margin:15px;
 }
 nav ul li a{
-color:white;
-text-decoration:none;
-font-weight:bold;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
 }
 section{
-padding:40px;
-text-align:center;
+    padding:40px;
+    text-align:center;
 }
 #projects{
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
 }
 .project{
-background:green;
-padding:20px;
-margin:20px;
-width:250px;
-box-shadow:0 0 10px lightblue;
+    background:green;
+    padding:20px;
+    margin:20px;
+    width:250px;
+    box-shadow:0 0 10px lightblue;
 }
 .project img{
-width:100%;
+    width:100%;
 }
 .project a{
-display:inline-block;
-margin-top:10px;
-text-decoration:none;
-color:white;
-background:orange;
-padding:8px 15px;
+    display:inline-block;
+    margin-top:10px;
+    text-decoration:none;
+    color:white;
+    background:orange;
+    padding:8px 15px;
 }
 footer{
-background:orange;
-color:white;
-text-align:center;
-padding:10px;
+    background:orange;
+    color:white;
+    text-align:center;
+    padding:10px;
 }
 @media(max-width:768px){
-#projects{
-flex-direction:column;
-align-items:center;
-}
-nav ul li{
-display:block;
-margin:10px;
-}
+    #projects{
+        flex-direction:column;
+        align-items:center;
+    }
+    nav ul li{
+        display:block;
+        margin:10px;
+    }
 }
 html{
     scroll-behavior: smooth;
 }
 ul{
-list-style-position:inside;
-padding:0;
+    list-style-position:inside;
+    padding:0;
 }
