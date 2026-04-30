@@ -71,4 +71,7 @@ html{
 ul{
     list-style-position:inside;
     padding:0;
+.mp{
+    text-align:centre;
+    }
 }
